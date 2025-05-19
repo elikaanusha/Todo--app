@@ -1,0 +1,60 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #2f2f3b;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+}
+
+.container {
+  background: #3b3f51;
+  padding: 30px;
+  border-radius: 12px;
+  width: 400px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input, button {
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  cursor: pointer;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+li {
+  background: #515575;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.task-controls button {
+  margin-left: 5px;
+  cursor: pointer;
+}
